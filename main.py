@@ -1,4 +1,4 @@
-import asyncio
+حimport asyncio
 import random
 from highrise import BaseBot, User, Position
 from highrise.models import SessionMetadata
