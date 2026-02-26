@@ -131,4 +131,6 @@ class MyBot(BaseBot):
             await asyncio.sleep(15)
 
 if __name__ == "__main__":
-    run(MyBot(), "68bb81b6b3ad4d2c8d06e70d", "a7bc6b92e7aab123e5a044d7ce4d252671ae12cf7554a58fe4c1012a882d8d4f")
+    run(MyBot, "68bb81b6b3ad4d2c8d06e70d", "a7bc6b92e7aab123e5a044d7ce4d252671ae12cf7554a58fe4c1012a882d8d4f")
+
+    
